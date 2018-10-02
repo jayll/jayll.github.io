@@ -1,0 +1,41 @@
+$bg-color: white;
+
+body{
+  // background-image: url(/assets/backgroundImage.jpg);
+  background-repeat: no-repeat;
+  background-size:100% auto;
+    // background-attachment: fixed;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: red !important;
+}
+.navbar-toggler {
+  border: 0px !important;
+
+}
+// img {
+//     width: 100%;
+//     height: auto;
+// }
+
+// $primary: purple;
+
+// .navbar{
+//   border-style: solid;
+//   border-color: blue;
+//   border-width:medium;
+// }
+
+
+
+.jumbotron {
+    background-color: #4d2929 !important;
+    border-top: 3px solid rgb(219, 219, 219);
+}
+
+.row{
+  background-color: green;
+}
+
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";
