@@ -1,19 +1,30 @@
-body {
-  background-repeat: no-repeat;
-  background-size: 100% auto; }
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-right: auto !important;
+  margin-left: auto !important; }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
-  color: red !important; }
+#home {
+  height: auto;
+  width: 100%; }
+
+#dog {
+  height: auto;
+  width: 40%; }
 
 .navbar-toggler {
   border: 0px !important; }
 
-.jumbotron {
-  background-color: #4d2929 !important;
-  border-top: 3px solid #dbdbdb; }
+.splits {
+  padding: 200px 0;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  margin-right: auto !important;
+  margin-left: auto !important; }
 
-.row {
-  background-color: green; }
+#mePicture {
+  height: auto;
+  width: 80%; }
 
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
