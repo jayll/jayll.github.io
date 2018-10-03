@@ -1,41 +1,51 @@
-$bg-color: white;
+// $bg-color: white;
+//
 
-body{
-  // background-image: url(/assets/backgroundImage.jpg);
-  background-repeat: no-repeat;
-  background-size:100% auto;
+.container-fluid {
+    padding-right:0!important;
+    padding-left:0!important;
+    margin-right:auto!important;
+    margin-left:auto!important;
+ }
+
+#home{
+  // size:100% auto;
     // background-attachment: fixed;
+    height: auto;
+    width:100%;
 }
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    color: red !important;
+#dog{
+  // size:100% auto;
+    // background-attachment: fixed;
+    height: auto;
+    width:40%;
 }
+
+// .navbar-nav li a:hover, .navbar-nav li.active a {
+//     color: red !important;
+// }
 .navbar-toggler {
   border: 0px !important;
 
 }
-// img {
-//     width: 100%;
-//     height: auto;
-// }
-
-// $primary: purple;
-
-// .navbar{
-//   border-style: solid;
-//   border-color: blue;
-//   border-width:medium;
-// }
 
 
-
-.jumbotron {
-    background-color: #4d2929 !important;
-    border-top: 3px solid rgb(219, 219, 219);
+.splits {
+  padding: 200px 0;
+  padding-right:15px!important;
+  padding-left:15px!important;
+  margin-right:auto!important;
+  margin-left:auto!important;
 }
 
-.row{
-  background-color: green;
+#mePicture{
+  height: auto;
+  width: 80%;
 }
+// .page-footer{
+//   padding-bottom: 0px!important;
+//   margin-bottom: auto!important;
+// }
 
 // Bootstrap Sass Imports
 @import "node_modules/bootstrap/scss/bootstrap";
