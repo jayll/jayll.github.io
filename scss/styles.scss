@@ -1,6 +1,17 @@
 // $bg-color: white;
 //
 
+.borderThick{
+  border-style: solid;
+  border-color: blue;
+}
+
+#projectPics{
+  height: 400px;
+  width:auto;
+  margin:0 auto;
+}
+
 .container-fluid {
     padding-right:0!important;
     padding-left:0!important;
@@ -10,11 +21,13 @@
 
 #home{
   // size:100% auto;
-    // background-attachment: fixed;
+    background-attachment: fixed;
     height: auto;
     width:100%;
+    padding-top: 50px;
+
 }
-#dog{
+#initials{
   // size:100% auto;
     // background-attachment: fixed;
     height: auto;
@@ -24,6 +37,7 @@
 #mePicture{
   height: auto;
   width: 80%;
+  margin:0 auto;
 }
 
 // .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -36,7 +50,7 @@
 
 
 .splits {
-  padding: 200px 0;
+  padding:  60px 0;
   padding-right:15px!important;
   padding-left:15px!important;
   margin-right:auto!important;
