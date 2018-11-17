@@ -7,6 +7,8 @@
 
         <link rel="stylesheet" href="./css/bootstrap.css">
         <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet"> -->
         <!-- <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css"> -->
         <!-- <link rel="stylesheet" href="/css/styles.css"> -->
 
@@ -55,51 +57,44 @@
         </div>
 
 
-        <div class=" row splits bg-dark ">
-
+        <div class=" row splits bg-darkPurple" id="about">
           <div class="card col-12">
-
             <div class="card-body">
-
-            <div class="row splits" id ="aboutMe">
-                <div class="col-12 mx-auto text-center">
-                  <h1>About Me</h1>
+              <div class="row" id ="aboutMe">
+                  <div class="col-12 mx-auto text-center">
+                    <h1>About Me</h1>
+                  </div>
+              </div>
+              <div class="row ">
+                <div class="col-md-3 col-12 mx-auto text-center ">
+                  <img class="img-responsive img-fluid" id="mePicture" src="./assets/mePic.png" >
                 </div>
-            </div>
-
-            <div class="row splitsNoVert" id="about">
-              <div class="col-md-3 col-12 mx-auto text-center">
-                <img class="img-responsive img-fluid" id="mePicture" src="./assets/mePic.png" >
+                <div class="col-md-9 col-12 mx-auto">
+                  <p class="lead">Hello, my name is Jay Lliguichushca and I am currently a junior majoring in Computer Science B.S. at the University at Buffalo. My favorite thing about my passion is the ability to create something from nothing. The ability to have an idea and being able to create it almost instantly is really special.</p>
+                </div>
               </div>
-              <div class="col-md-9 col-12 mx-auto">
-                <p class="lead">Hello, my name is Jay Lliguichushca and I am currently a junior majoring in Computer Science B.S. at the University at Buffalo. My favorite thing about my passion is the ability to create something from nothing. The ability to have an idea and being able to create it almost instantly is really special.</p>
-              </div>
-            </div>
-
             </div>
           </div>
         </div>
 
 
-
-
         <div class="row splits bg-white" id="projects">
-                <div class="card col-md-6 col-12">
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-md-6 col-6 mx-auto">
-                          <img class="img-fluid img-responsive"  src="./assets/FareRide1.png " >
-                      </div>
-                      <div class="col-md-6 col-6 mx-auto">
-                          <img class="img-fluid img-responsive"  src="./assets/FareRide2.png " >
-                      </div>
-                    </div>
-                    <h5 class="card-title">FareRide</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Andriod Application</h6>
-                    <p class="card-text">Created an Android Application that compares Uber and Lyft prices. Calculated distance of pickup and drop off using Google Maps API.</p>
-                    <a href="https://github.com/stephenfung98/PennApps18/" class="card-link">Github</a>
+          <div class="card col-md-6 col-12">
+              <div class="card-body ">
+                <div class="row ">
+                  <div class="col-md-6 col-6 mx-auto fare">
+                    <img class="img-fluid img-responsive " src="./assets/FareRide1.png " >
+                  </div>
+                  <div class="col-md-6 col-6 mx-auto fare">
+                    <img class="img-fluid img-responsive " src="./assets/FareRide2.png " >
                   </div>
                 </div>
+                <h5 class="card-title">FareRide</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Andriod Application</h6>
+                <p class="card-text">Created an Android Application that compares Uber and Lyft prices. Calculated distance of pickup and drop off using Google Maps API.</p>
+                <a href="https://github.com/stephenfung98/PennApps18/" class=" github card-link" title="Github"><i class="fa fa-github" style="font-size:36px;"></i></a>
+              </div>
+          </div>
 
                 <!-- <div class="card col-md-6 col-12">
                   <div class="card-body">
@@ -112,6 +107,7 @@
                     <a href="https://github.com/jayll/uBeEats" class="card-link">Github</a>
                   </div>
                 </div> -->
+
         </div>
 
 

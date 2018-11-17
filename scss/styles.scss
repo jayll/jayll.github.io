@@ -2,6 +2,10 @@
   background:rgba(255,255,255, 0.9) !important;
 }
 
+.bg-darkPurple{
+  background:rgb(128,53,189)!important;
+}
+
 
 .borderThick{
   border-style: solid;
@@ -9,6 +13,11 @@
   border-width:thin;
 }
 
+.fare{
+  padding-right:3px!important;
+  padding-left:3px!important;
+  padding-bottom: 10px!important;
+}
 
 
 
@@ -26,16 +35,14 @@
  }
 
 #home{
-  // size:100% auto;
     background-attachment: fixed;
     height: auto;
     width:100%;
     padding-top: 30px!important;
 }
+
 #rHome{
-      padding-bottom: 130px!important;
-      // padding-left: 0px!important;
-      // padding-right: 0px!important;
+      padding-bottom: 100px!important;
 }
 
 #initials{
@@ -45,18 +52,11 @@
     width:40%;
 }
 
-#aboutMe{
-  padding-top: 0px!important;
-  padding-bottom: 0px!important;
-}
 
-#about{
-    padding-top: 0px!important;
-}
 
 #mePicture{
   height: auto;
-  width: 50%;
+  width: 80%;
   // margin:0 auto;
   padding-bottom: 5px!important;
 }
@@ -86,6 +86,7 @@
   margin-right:auto!important;
   margin-left:auto!important;
 }
+
 
 
 

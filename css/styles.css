@@ -1,10 +1,18 @@
 .bg-whiteTransparent {
   background: rgba(255, 255, 255, 0.9) !important; }
 
+.bg-darkPurple {
+  background: #8035bd !important; }
+
 .borderThick {
   border-style: solid;
   border-color: blue;
   border-width: thin; }
+
+.fare {
+  padding-right: 3px !important;
+  padding-left: 3px !important;
+  padding-bottom: 10px !important; }
 
 .container-fluid {
   padding-right: 0 !important;
@@ -19,22 +27,15 @@
   padding-top: 30px !important; }
 
 #rHome {
-  padding-bottom: 130px !important; }
+  padding-bottom: 100px !important; }
 
 #initials {
   height: auto;
   width: 40%; }
 
-#aboutMe {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important; }
-
-#about {
-  padding-top: 0px !important; }
-
 #mePicture {
   height: auto;
-  width: 50%;
+  width: 80%;
   padding-bottom: 5px !important; }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
