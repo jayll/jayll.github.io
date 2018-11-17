@@ -1,6 +1,15 @@
 (function($) {
   "use strict"; // Start of use strict
 
+
+  $(document).ready(function(){
+  /*! Fades in page on load */
+  $('body').css('display', 'none');
+  $('body').fadeIn(1000);
+
+  });
+
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -25,5 +34,8 @@
     target: '#mainNav',
     offset: 54
   });
+
+
+
 
 })(jQuery); // End of use strict
