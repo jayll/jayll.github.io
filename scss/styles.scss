@@ -1,11 +1,56 @@
+// .bg-light{
+//   background-color: #3b5998 !important;
+// }
+
+.col{
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+.row{
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+#Home{
+      // padding-bottom: 100px!important;
+      padding-top: 82px !important;
+      padding-left: 0px!important;
+      padding-right: 0px!important;
+}
+
+.mainScreen{
+    // padding-top: 700px !important;
+    width: 100%;
+    height: 70vh;
+}
+
+.centered {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.code{
+  color:black !important;
+  font-size:3.1vw;
+}
+
+
 .bg-whiteTransparent{
   background:rgba(255,255,255, 0.9) !important;
 }
 
+
+
 .bg-darkPurple{
   background:rgb(128,53,189)!important;
 }
-
 
 .borderThick{
   border-style: solid;
@@ -23,13 +68,6 @@
   padding-top: 10px;
 }
 
-
-// #projectPics{
-//   height: 90%
-//   width:auto;
-//   margin:0 auto;
-// }
-
 .container-fluid {
     padding-right:0!important;
     padding-left:0!important;
@@ -37,16 +75,15 @@
     margin-left:auto!important;
  }
 
-#home{
-    background-attachment: fixed;
+#mainPic{
+    // background-attachment: fixed;
     height: auto;
     width:100%;
-    padding-top: 30px!important;
+    padding-top: 87px!important;
+
 }
 
-#rHome{
-      padding-bottom: 100px!important;
-}
+
 
 #initials{
   // size:100% auto;
@@ -65,7 +102,7 @@
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: purple !important;
+    color: #3b5998!important;
 }
 
 .navbar-toggler {
@@ -91,13 +128,10 @@
 }
 
 
-
-
-
-// .page-footer{
-//   padding-bottom: 0px!important;
-//   margin-bottom: auto!important;
-// }
+.page-footer{
+  padding-bottom: 0px!important;
+  margin-bottom: auto!important;
+}
 
 // Bootstrap Sass Imports
 @import "node_modules/bootstrap/scss/bootstrap";

@@ -11,7 +11,7 @@
         <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet"> -->
         <!-- <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css"> -->
         <!-- <link rel="stylesheet" href="/css/styles.css"> -->
-
+        <link rel="icon" type="image/png" href="./assets/myInitials.png" />
     </head>
 
 
@@ -19,68 +19,88 @@
     <body id="page-top">
 
       <!-- big container -->
-      <div class="container-fluid" >
+      <div class="container-fluid " >
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-whiteTransparent fixed-top" id="mainNav">
-          <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-              <img class="img-responsive" id="initials" src="./assets/myInitials.png " >
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto ">
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#rHome">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="./JayResume.pdf">Resume</a>
-                </li>
-              </ul>
-            </div>
+        <div class="row" id="fullWidth">
+          <div class="col-12 col-md-12" id="fullWidth">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-whiteTransparent fixed-top" id="mainNav">
+              <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                  <img class="img-responsive" id="initials" src="./assets/myInitials.png " >
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="./JayResume.pdf">Resume</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
           </div>
-        </nav>
 
+        </div>
 
-        <div class="row splits" id="rHome">
-          <div class="col-md-12">
-              <img class="img-responsive" id="home" src="./assets/flower.jpg " >
+        <div class="container-fluid" id="Home">
+          <div class="row mainScreen" style="background:transparent url('./assets/appleBackground.jpg') no-repeat center center /cover">
+            <div class="col-12">
+              <div class="text-center centered">
+                <code class="code">A Jay Lliguichushca Creation</code>
+                <code class="code2 code">.</code>
+                <code class="code3 code">.</code>
+                <code class="code4 code">.</code>
+              </div>
+            </div>
           </div>
         </div>
 
 
-        <div class=" row splits bg-light" id="about">
-              <div class="col-12 mx-auto">
+
+          <!-- <div class="container" id="Home">
+            <img class="img-responsive" id="mainPic" src="./assets/appleBackground.jpg " >
+             </div> -->
+
+
+
+
+        <div class=" row splits bg-dark" id="about">
+              <div class="col-12 mx-auto text-center">
                 <h1>About Me</h1>
               </div>
 
-          <div class="card col-12">
-            <div class="card-body">
-              <div class="row ">
-                <div class="col-md-3 col-12 mx-auto text-center ">
-                  <img class="img-responsive img-fluid" id="mePicture" src="./assets/mePic.png" >
-                </div>
-                <div class="col-md-9 col-12 mx-auto">
-                  <p class="lead">Hi, welcome to my personal website. My name is Jay Lliguichushca and I am currently a student at the University at Buffalo majoring in Computer Science. I am Ecuadorian, a first-generation college student, and my hometown is Brooklyn, New York. I created this website using HTML, CSS, SCSS, Bootstrap 4, and jQuery. I hope to keep improving the website in the coming future. Thank you for visiting and please feel free to contact me for any inquiries about the webiste or about me!</p>
+              <div class="card col-12">
+                <div class="card-body">
+                  <div class="row ">
+                    <div class="col-md-3 col-12 mx-auto text-center ">
+                      <img class="img-responsive img-fluid" id="mePicture" src="./assets/mePic.png" >
+                    </div>
+                    <div class="col-md-9 col-12 mx-auto">
+                      <p class="lead">Hi, welcome to my personal website. My name is Jay Lliguichushca and I am currently a student at the University at Buffalo majoring in Computer Science. I am Ecuadorian, a first-generation college student, and my hometown is Brooklyn, New York. I created this website using HTML, CSS, SCSS, Bootstrap 4, and jQuery. I hope to keep improving the website in the coming future. Thank you for visiting and please feel free to contact me for any inquiries about the website or about me!</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
         </div>
 
 
         <div class="row splits bg-white" id = "projects">
-              <div class="col-12 mx-auto">
+              <div class="col-12 mx-auto text-center">
                 <h1>Projects</h1>
               </div>
 
@@ -120,19 +140,19 @@
 
 
 
-        <div class="row splits bg-light " id="contact">
-          <div class="col-12 mx-auto">
+        <div class="row splits bg-dark" id="contact">
+          <div class="col-12 mx-auto text-center">
             <h1>Contact Me</h1>
           </div>
           <br>
 
-            <div class="col-6 col-md-6 mx-auto text-center" id="contactSpace">
-                <i class="fa fa-envelope fa-3x" style="color:black"> </i>
+            <div class="col-12 col-md-6 mx-auto text-center" id="contactSpace">
+                <a class="fa fa-envelope fa-3x" href="mailto:jaylligu@buffalo.edu"> </a>
                 <p class="display1">jaylligu@buffalo.edu</p>
             </div>
 
-            <div class="col-6 col-md-6 mx-auto text-center" id="contactSpace">
-              <i class="fa fa-phone fa-3x" style="color:black"></i>
+            <div class="col-12 col-md-6 mx-auto text-center" id="contactSpace">
+              <a class="fa fa-phone fa-3x" href="tel:+3479070378"></a>
               <p class="display1">347-907-0378</p>
             </div>
         </div>
