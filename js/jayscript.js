@@ -2,6 +2,28 @@
   "use strict"; // Start of use strict
 
 
+  function blink_text() {
+      $('.code2').fadeOut(250);
+      $('.code2').fadeIn(250);
+  }
+
+
+  function blink_text1() {
+      $('.code3').fadeOut(500);
+      $('.code3').fadeIn(500);
+  }
+
+
+  function blink_text2() {
+      $('.code4').fadeOut(750);
+      $('.code4').fadeIn(750);
+  }
+  setInterval(blink_text, 1500);
+  setInterval(blink_text1, 1500);
+  setInterval(blink_text2, 1500);
+
+
+
   $(document).ready(function(){
   /*! Fades in page on load */
   $('body').css('display', 'none');
@@ -71,6 +93,7 @@
     target: '#mainNav',
     offset: 54
   });
+
 
 
 
