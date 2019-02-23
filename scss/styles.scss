@@ -148,10 +148,6 @@ body,html {
 }
 
 
-.flip-container.hover .flipper {
-    transform: rotateY(180deg);
-}
-
 .flip-container,
 .front,
 .back {
@@ -160,6 +156,10 @@ body,html {
 }
 
 
+
+.flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
 
 .flipper {
     transition: 2s;
@@ -171,24 +171,13 @@ body,html {
 }
 
 
-
-.front,
-.back {
+.front, .back {
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
 }
-
-.fakefront{
-  backface-visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-}
-
-
 
 .front {
     z-index: 2;
@@ -201,6 +190,20 @@ body,html {
     transform: rotateY(180deg);
     background-color: #fff;
 }
+
+
+
+
+// .fakefront{
+//   backface-visibility: hidden;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   z-index: 2;
+// }
+
+
+
 
 #fareRideCover {
   height: 100%!important;
@@ -231,35 +234,35 @@ body,html {
 
 
 
-.front:hover{
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
-    transition: .5s;
-      box-shadow: 0 15px 30px 0 rgba(0,0,0,1);
-}
+// .front:hover{
+//   filter: blur(2px);
+//   -webkit-filter: blur(2px);
+//     transition: .5s;
+//       box-shadow: 0 15px 30px 0 rgba(0,0,0,1);
+// }
 
 
 
 
-.front:hover ~ .fakefront{
-  font-size: 1.5em;
-  transition: 1s;
-}
+// .front:hover ~ .fakefront{
+//   font-size: 1.5em;
+//   transition: 1s;
+// }
 
-.fakefront:hover{
-  transition: 1s;
-    font-size: 1.5em;
+// .fakefront:hover{
+//   transition: 1s;
+//     font-size: 1.5em;
+//
+// }
 
-}
 
 
-
-.realCentered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+// .realCentered {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+// }
 
 
 
