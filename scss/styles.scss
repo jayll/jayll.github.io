@@ -241,12 +241,24 @@ body,html {
 .front:hover{
   filter: blur(4px);
   -webkit-filter: blur(4px);
+
+
     transition: .5s;
       -webkit-transition: .5s;
       box-shadow: 0 15px 30px 0 rgba(0,0,0,1);
       -webkit-box-shadow: 0 15px 30px 0 rgba(0,0,0,1);
+      cursor: pointer;
+      // background-size: 200%!important;
 }
 
+.fakefront:hover{
+        cursor: pointer;
+}
+
+nav{
+  position:relative;
+   z-index:1000;
+}
 
 
 

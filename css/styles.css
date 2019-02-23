@@ -162,7 +162,15 @@ body, html {
   transition: .5s;
   -webkit-transition: .5s;
   box-shadow: 0 15px 30px 0 black;
-  -webkit-box-shadow: 0 15px 30px 0 black; }
+  -webkit-box-shadow: 0 15px 30px 0 black;
+  cursor: pointer; }
+
+.fakefront:hover {
+  cursor: pointer; }
+
+nav {
+  position: relative;
+  z-index: 1000; }
 
 .realCentered {
   position: absolute;
