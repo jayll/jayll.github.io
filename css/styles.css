@@ -100,7 +100,7 @@ body, html {
   height: 680px; }
 
 .flipper {
-  transition: 1s;
+  transition: 2s;
   transform-style: preserve-3d;
   position: relative;
   width: 100%;
@@ -112,6 +112,13 @@ body, html {
   position: absolute;
   top: 0;
   left: 0; }
+
+.fakefront {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; }
 
 .front {
   z-index: 2;
