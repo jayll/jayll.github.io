@@ -144,7 +144,7 @@ body,html {
 .projectsTitleCard{
   font-family: $primaryFont;
   color: white!important;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 
@@ -211,7 +211,7 @@ body,html {
 
 #fareRideCover {
   height: 100%!important;
-  background-image: url('../assets/FareRideShow.jpg')!important;
+  background-image: url('../assets/fareRideShow.jpg')!important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -251,7 +251,7 @@ body,html {
 
 
 .front:hover ~ .fakefront{
-  font-size: 1.5em;
+  font-size: 1.2em;
   transition: 1s;
     -webkit-transition: 1s;
 }
@@ -259,7 +259,7 @@ body,html {
 .fakefront:hover{
   transition: 1s;
   -webkit-transition: 1s;
-    font-size: 1.5em;
+    font-size: 1.2em;
 
 }
 
