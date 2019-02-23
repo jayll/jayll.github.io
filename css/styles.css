@@ -179,6 +179,11 @@ body, html {
 nav {
   z-index: 99 !important; }
 
+#navContainer {
+  padding-top: 10px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important; }
+
 .fare {
   padding-right: 3px !important;
   padding-left: 3px !important;
