@@ -7,27 +7,20 @@
 
         <link rel="stylesheet" href="./css/bootstrap.css">
         <link rel="stylesheet" href="./css/styles.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet"> -->
-        <!-- <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css"> -->
-        <!-- <link rel="stylesheet" href="/css/styles.css"> -->
-        <link rel="icon" href="./assets/favicon.ico" type="image/x-icon"/>
-        <!-- <link rel="icon" class="iconInitials" href="./assets/myInitialsIcon.png" type="image/png"/> -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans" rel="stylesheet">
+        <link rel="icon" href="./assets/iconJL.ico" type="image/x-icon"/>
     </head>
 
 
 
-    <body id="page-top">
+    <body>
 
-      <!-- big container -->
-      <div class="container-fluid " >
-
-        <div class="row" id="fullWidth">
-          <div class="col-12 col-md-12" id="fullWidth">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-whiteTransparent fixed-top" id="mainNav">
+        <div class="container-fluid" id="Home">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="mainNav">
               <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <a class="navbar-brand js-scroll-trigger fullWrap" href="#Home">
                   <img class="img-responsive" id="initials" src="./assets/logoJL.png">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,10 +32,10 @@
                       <a class="nav-link js-scroll-trigger" href="#Home">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                      <a class="nav-link js-scroll-trigger" href="#About">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                      <a class="nav-link js-scroll-trigger" href="#Projects">Projects</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -54,93 +47,253 @@
                 </div>
               </div>
             </nav>
-          </div>
+
+              <div class="centered container">
+                <div class="row text-center">
+                  <div class="col-12">
+                    <code class="code"> A Jay Lliguichushca</code>
+                  </div>
+                  <div class="col-12">
+                    <code class="code">Creation</code>
+                    <code class="code" id="blink">▉</code>
+                  </div>
+                </div>
+              </div>
+
         </div>
 
-        <div class="container-fluid" id="Home">
-          <div class="row mainScreen" style="background:transparent url('./assets/appleBackground.jpg') no-repeat center center /cover">
-            <div class="col-12">
-              <div class="text-center centered col-5 col-xl-5">
-                <code class="code">A Jay Lliguichushca Creation</code>
-                <code class="code2 code">.</code>
-                <code class="code3 code">.</code>
-                <code class="code4 code">.</code>
+
+
+
+        <div class="container-fluid hPadding" id="About">
+          <div class= "container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h class="titleWhite">About Me</h>
+              </div>
+            </div>
+          <div class="card ">
+              <div class= "container">
+
+              <div class="row  ">
+                <div class="col-md-3 col-12  text-center" id = "mePicturePadding">
+                  <img class="img-responsive img-fluid " id="mePicture" src="./assets/mePic.png" >
+                </div>
+                <div class="col-md-9 col-12 my-auto">
+                  <p class="description">Hi, welcome to my personal website. My name is Jay Lliguichushca and I am currently a student at the University at Buffalo majoring in Computer Science. I am Ecuadorian, a first-generation college student, and my hometown is Brooklyn, New York. I created this website using HTML, CSS, SCSS, Bootstrap 4, and jQuery. I hope to keep improving the website in the coming future. Thank you for visiting and please feel free to contact me for any inquiries about the website or about me!</p>
+                </div>
               </div>
             </div>
           </div>
+            </div>
         </div>
 
 
 
-          <!-- <div class="container" id="Home">
-            <img class="img-responsive" id="mainPic" src="./assets/appleBackground.jpg " >
-             </div> -->
 
 
 
+      <div class="container-fluid hPadding " id = "Projects">
 
-        <div class=" row splits bg-dark" id="about">
-              <div class="col-12 mx-auto text-center">
-                <h1>About Me</h1>
-              </div>
-
-              <div class="card col-12">
-                <div class="card-body">
-                  <div class="row ">
-                    <div class="col-md-3 col-12 mx-auto text-center ">
-                      <img class="img-responsive img-fluid" id="mePicture" src="./assets/mePic.png" >
-                    </div>
-                    <div class="col-md-9 col-12 mx-auto">
-                      <p class="lead">Hi, welcome to my personal website. My name is Jay Lliguichushca and I am currently a student at the University at Buffalo majoring in Computer Science. I am Ecuadorian, a first-generation college student, and my hometown is Brooklyn, New York. I created this website using HTML, CSS, SCSS, Bootstrap 4, and jQuery. I hope to keep improving the website in the coming future. Thank you for visiting and please feel free to contact me for any inquiries about the website or about me!</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div class ="row">
+          <div class="col-12 mx-auto text-center">
+            <h class ="titleDark">Projects</h>
+          </div>
         </div>
 
 
-        <div class="row splits bg-white" id = "projects">
-              <div class="col-12 mx-auto text-center">
-                <h1>Projects</h1>
-              </div>
 
-          <div class="card col-md-6 col-12">
-              <div class="card-body ">
-                <div class="row ">
-                  <div class="col-md-6 col-6 mx-auto fare">
-                    <img class="img-fluid img-responsive " src="./assets/FareRide1.png " >
-                  </div>
-                  <div class="col-md-6 col-6 mx-auto fare">
-                    <img class="img-fluid img-responsive " src="./assets/FareRide2.png " >
+        <div class= "container hPadding mx-auto   " id = "subProjects">
+
+        <div class="row mx-auto">
+
+          <div class="col-xl-6 col-lg-12 col-md-12 col-12 fullWrap" >
+            <div class="flip-container container fullWrap ">
+
+              <div class="flipper mx-auto ">
+                <div class="front" id="fareRideCover">
+                </div>
+                <div class="fakefront realCentered container">
+                  <div class="row text-center">
+                    <div class="col-12">
+                      <h class="projectsTitleCard"> FareRide</h>
+                    </div>
                   </div>
                 </div>
-                <h5 class="card-title">FareRide</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Andriod Application</h6>
-                <p class="card-text">Created an Android Application that compares Uber and Lyft prices. Calculated distance of pickup and drop off using Google Maps API.</p>
-                <a href="https://github.com/stephenfung98/PennApps18/" class=" github card-link" title="Github"><i class="fa fa-github" style="font-size:36px;"></i></a>
-              </div>
+                <div class="back card">
+                  <div class= "container">
+                    <div class="card-body ">
+                      <div class="row ">
+                        <div class="col-md-6 col-6 mx-auto fare">
+                          <img class="img-fluid img-responsive card" src="./assets/FareRide1.png " >
+                        </div>
+                        <div class="col-md-6 col-6 mx-auto fare">
+                          <img class="img-fluid img-responsive card" src="./assets/FareRide2.png " >
+                        </div>
+                      </div>
+                      <h5 class="card-title">FareRide</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Andriod Application</h6>
+                      <p class="card-text">Created an Android Application that compares Uber and Lyft prices. Calculated distance of pickup and drop off using Google Maps API.</p>
+                      <a href="https://github.com/stephenfung98/PennApps18/"><i class="fab fa-github" style="font-size:36px; color:black"></i></a>
+
+                    </div>
+                  </div>
+                </div>
+
+
+            </div>
+            </div>
           </div>
 
-          <div class="card col-md-6 col-12">
-              <div class="card-body ">
-                <div class="row ">
-                  <div class="col-md-6 col-12 mx-auto fare">
-                    <img class="img-fluid img-responsive" src="./assets/inProgress.png " >
+          <div class="col-xl-6 col-lg-12 col-md-12 col-12 fullWrap">
+            <div class="flip-container container fullWrap ">
+
+              <div class="flipper mx-auto ">
+                <div class="front" id="amazonDRSCover">
+                </div>
+                <div class="fakefront realCentered container">
+                  <div class="row text-center">
+                    <div class="col-12">
+                      <h class = "projectsTitleCard"> AmazonDRS</h>
+                    </div>
                   </div>
                 </div>
-                <h5 class="card-title">uBeEats</h5>
-                <h6 class="card-subtitle mb-2 text-muted">iOS Application</h6>
-                <p class="card-text">An iOS Application that tracks calories and other nutrients for all on-campus food locations at the University at Buffalo.</p>
-                <a href="https://github.com/jayll/uBeEats" class=" github card-link" title="Github"><i class="fa fa-github" style="font-size:36px;"></i></a>
-              </div>
+                <div class="back card">
+                  <div class= "container">
+                    <div class="card-body ">
+                      <div class="row ">
+                        <div class="col-12 mx-auto fare text-center">
+                          <iframe width="100%" height="350"
+                          src="https://www.youtube.com/embed/4ZAw4ng5DeY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                          </iframe>
+                        </div>
+                      </div>
+                      <h5 class="card-title">AmazonDRS</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Embedded Systems Project</h6>
+                      <p class="card-text">Created an Amazon Dash Replenishment Button using Adafruit Feather M0 WiFi microcontroller, Amazon API, AmazonDRS API, AmazonDRS library, ArduinoJson library, and Wifi101 library. </p>
+                      <a href="https://github.com/jayll/AmazonDRS"><i class="fab fa-github" style="font-size:36px; color:black"></i></a>
+                      <a href="https://youtu.be/4ZAw4ng5DeY"><i class="fab fa-youtube" style="font-size:36px; color:red"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+
+            </div>
+            </div>
           </div>
 
+        </div>
+
+        <div class="row mx-auto">
+
+          <div class="col-md-6 col-12 fullWrap" >
+            <div class="flip-container container fullWrap ">
+
+              <div class="flipper mx-auto ">
+                <div class="front" id="openSpotCover">
+                </div>
+                <div class="fakefront realCentered container">
+                  <div class="row text-center">
+                    <div class="col-12">
+                      <h class="projectsTitleCard"> OpenSpot</h>
+                    </div>
+                  </div>
+                </div>
+                <div class="back card">
+                  <div class= "container">
+                    <div class="card-body ">
+                      <div class="row ">
+                        <div class="col-md-6 col-6 mx-auto fare">
+                          <img class="img-fluid img-responsive card" src="./assets/FareRide1.png " >
+                        </div>
+                        <div class="col-md-6 col-6 mx-auto fare">
+                          <img class="img-fluid img-responsive card" src="./assets/FareRide2.png " >
+                        </div>
+                      </div>
+                      <h5 class="card-title">OpenSpot</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">iOS and Andriod Application</h6>
+                      <p class="card-text">Created an Android Application that compares Uber and Lyft prices. Calculated distance of pickup and drop off using Google Maps API.</p>
+                      <a href="https://github.com/jayll/OpenSpot"><i class="fab fa-github" style="font-size:36px; color:black"></i></a>
+
+                    </div>
+                  </div>
+                </div>
+
+
+            </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-12 fullWrap">
+            <div class="flip-container container fullWrap ">
+
+              <div class="flipper mx-auto ">
+                <div class="front" id="amazonDRSCover">
+                </div>
+                <div class="fakefront realCentered container">
+                  <div class="row text-center">
+                    <div class="col-12">
+                      <h class = "projectsTitleCard"> AmazonDRS</h>
+                    </div>
+                  </div>
+                </div>
+                <div class="back card">
+                  <div class= "container">
+                    <div class="card-body ">
+                      <div class="row ">
+
+                        <div class="col-12 mx-auto fare text-center">
+                          <iframe width="100%" height="350"
+                          src="https://www.youtube.com/embed/4ZAw4ng5DeY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                          </iframe>
+                        </div>
+                      </div>
+                      <h5 class="card-title">AmazonDRS</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Embedded Systems Project</h6>
+                      <p class="card-text">Created an Amazon Dash Replenishment Button using Adafruit Feather M0 WiFi microcontroller, Amazon API, AmazonDRS API, AmazonDRS library, ArduinoJson library, and Wifi101 library. </p>
+                      <a href="https://github.com/jayll/AmazonDRS"><i class="fab fa-github" style="font-size:36px; color:black"></i></a>
+                      <a href="https://youtu.be/4ZAw4ng5DeY"><i class="fab fa-youtube" style="font-size:36px; color:red"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+
+            </div>
+            </div>
+          </div>
 
         </div>
 
 
 
-        <div class="row splits bg-dark" id="contact">
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <a href="https://github.com/stephenfung98/PennApps18/"><i class="fab fa-github" style="font-size:36px; color:black"></i></a>
+      <a href="https://github.com/stephenfung98/PennApps18/"><i class="fab fa-youtube" style="font-size:36px; color:red"></i></a>
+      <a href="https://github.com/stephenfung98/PennApps18/"><i class="fab fa-facebook" style="font-size:36px; color:blue"></i></a>
+      <a href="https://github.com/stephenfung98/PennApps18/"><i class="fab fa-linkedin" style="font-size:36px; color:blue"></i></a>
+      <a href="https://github.com/stephenfung98/PennApps18/"><i class="fab fa-instagram" style="font-size:36px; color:blue"></i></a> -->
+
+
+
+
+
+
+
+        <!-- <div class="row splits bg-dark" id="contact">
           <div class="col-12 mx-auto text-center">
             <h1>Contact Me</h1>
           </div>
@@ -155,10 +308,10 @@
               <a class="fa fa-phone fa-3x" href="tel:+3479070378"></a>
               <p class="display1">347-907-0378</p>
             </div>
-        </div>
+        </div> -->
 
 
-          <footer class="page-footer font-small pt-4">
+          <!-- <footer class="page-footer font-small pt-4">
               <div class="list-unstyled list-inline text-center">
                   <a href="https://www.linkedin.com/in/jay-lliguichushca/" class="fa fa-linkedin fa-2x mx-2" style="color:black";> </a>
                   <a href="https://www.facebook.com/jay.lliguichushca" class="fa fa-facebook fa-2x mx-2" style="color:black";> </a>
@@ -166,10 +319,9 @@
                   <a href="https://www.instagram.com/jayy_ll/" class="fa fa-instagram fa-2x mx-2" style="color:black";> </a>
               </div>
               <div class="footer-copyright text-center py-3">© 2018 Jay Lliguichushca</div>
-          </footer>
+          </footer> -->
 
 
-      </div>
 
         <script src="./js/jquery.min.js"></script>
         <script src="./js/popper.min.js"></script>

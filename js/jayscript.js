@@ -3,24 +3,12 @@
 
 
   function blink_text() {
-      $('.code2').fadeOut(250);
-      $('.code2').fadeIn(250);
+      $('#blink').fadeOut(250);
+      $('#blink').fadeIn(250);
   }
 
+    setInterval(blink_text, 800);
 
-  function blink_text1() {
-      $('.code3').fadeOut(500);
-      $('.code3').fadeIn(500);
-  }
-
-
-  function blink_text2() {
-      $('.code4').fadeOut(750);
-      $('.code4').fadeIn(750);
-  }
-  setInterval(blink_text, 1500);
-  setInterval(blink_text1, 1500);
-  setInterval(blink_text2, 1500);
 
 
 
@@ -32,19 +20,6 @@
   });
 
 
-  // // Smooth scrolling using jQuery easing
-  // $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-  //   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-  //     var target = $(this.hash);
-  //     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-  //     if (target.length) {
-  //       $('html, body').animate({
-  //         scrollTop: (target.offset().top - 54)
-  //       }, 1000, "easeInOutExpo");
-  //       return false;
-  //     }
-  //   }
-  // });
 
   // Select all links with hashes
   $('a[href*="#"]')
@@ -93,6 +68,13 @@
     target: '#mainNav',
     offset: 54
   });
+
+  $('.flip-container .flipper').click(function() {
+	$(this).closest('.flip-container').toggleClass('hover');
+    $(this).css('transform, rotateY(180deg)');
+  });
+
+
 
 
 

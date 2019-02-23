@@ -1,96 +1,47 @@
-// .bg-light{
-//   background-color: #3b5998 !important;
-// }
+$primaryFont: 'Work Sans', sans-serif!important;
+$secondaryFont:'Roboto', sans-serif!important;
+$descriptionFontSize:1.15em!important;
+$titleFontSize:3.25em!important;
+$primaryDark:#2D3B46!important;
 
-.col{
-  margin-left: 0px!important;
-  margin-right: 0px!important;
-  padding-left: 0px!important;
-  padding-right: 0px!important;
+//main things & personal//
+
+.fullWrap{
+  padding-left: 0!important;
+  padding-right: 0!important;
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+  margin:0!important;
 }
 
-.row{
-  margin-left: 0px!important;
-  margin-right: 0px!important;
-  padding-left: 0px!important;
-  padding-right: 0px!important;
+.hPadding{
+  padding-top: 25px!important;
+  padding-bottom: 25px!important;
 }
 
-#Home{
-      // padding-bottom: 100px!important;
-      padding-top: 82px !important;
-      padding-left: 0px!important;
-      padding-right: 0px!important;
+.titleWhite{
+  font-family: $primaryFont;
+  font-size: $titleFontSize;
+  color:white!important;
 }
 
-.mainScreen{
-    // padding-top: 700px !important;
-    width: 100%;
-    height: 70vh;
-}
-
-.centered {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.code{
-  color:black !important;
-  font-size:3.1vw;
-}
-
-
-.bg-whiteTransparent{
-  background:rgba(255,255,255, 0.9) !important;
-}
-
-
-
-.bg-darkPurple{
-  background:rgb(128,53,189)!important;
+.titleDark{
+  font-family: $primaryFont;
+  font-size: $titleFontSize;
+  color: $primaryDark;
 }
 
 .borderThick{
   border-style: solid;
   border-color: blue;
-  border-width:thin;
-}
-
-.fare{
-  padding-right:3px!important;
-  padding-left:3px!important;
-  padding-bottom: 13px!important;
-}
-
-#contactSpace{
-  padding-top: 10px;
-}
-
-.container-fluid {
-    padding-right:0!important;
-    padding-left:0!important;
-    margin-right:auto!important;
-    margin-left:auto!important;
- }
-
-#mainPic{
-    // background-attachment: fixed;
-    height: auto;
-    width:100%;
-    padding-top: 87px!important;
-
+  border-width: medium;
 }
 
 
+body,html {
+  height: 100%!important;
+  margin: 0 !important;
 
-#initials{
-  // size:100% auto;
-    // background-attachment: fixed;
-    height: auto;
-    // width:40%;
-        width:35%;
 }
 
 .iconInitials{
@@ -98,17 +49,33 @@
   width:10px!important;
 }
 
+.card{
+        box-shadow: 0 4px 4px 0 rgba(0,0,0,.4);
+}
 
 
-#mePicture{
-  height: auto;
-  width: 80%;
-  // margin:0 auto;
-  padding-bottom: 5px!important;
+////////////////
+
+//Home//
+
+#Home{
+    background-image: url('../assets/appleBackground.jpg')!important;
+    height: 100% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.nav-link{
+  font-family: $primaryFont;
+  font-size: 1.1em!important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #3b5998!important;
+  color: black;
+}
+.navbar-nav li a.active {
+  color: $primaryDark;
 }
 
 .navbar-toggler {
@@ -116,22 +83,193 @@
 
 }
 
-
-.splits {
-  padding:  30px 0;
-  padding-right:15px!important;
-  padding-left:15px!important;
-  margin-right:auto!important;
-  margin-left:auto!important;
+#initials{
+  height: auto;
+  width:35%;
+  // size:100% auto;
+    // background-attachment: fixed;
+        // width:40%;
 }
 
-.splitsNoVert{
-  padding:  0px 0;
-  padding-right:15px!important;
-  padding-left:15px!important;
-  margin-right:auto!important;
-  margin-left:auto!important;
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.code{
+  color:rgb(0,255,0) !important;
+  font-size:1.7em;
+}
+
+///////////////////
+
+
+////About//////
+
+#About{
+  background-color: $primaryDark;
+  // background-color: black;
+
+}
+
+#mePicture{
+  height: auto;
+  width: 85%;
+  // padding-bottom: 10px!important;
+}
+
+#mePicturePadding{
+  padding-top: 15px!important;
+  padding-bottom: 15px!important;
+}
+
+.description{
+  font-size: $descriptionFontSize;
+  font-family: $secondaryFont;
+  text-align: justify;
+}
+
+//////////////
+
+#Projects{
+
+}
+
+#subProjects{
+  // background-color: $primaryDark;
+}
+
+.projectsTitleCard{
+  font-family: $primaryFont;
+  color: white!important;
+  font-size: 3em;
+}
+
+
+.flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back {
+    width: 100%;
+    height: 680px;
+}
+
+
+
+.flipper {
+    transition: 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fakefront{
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+
+
+.front {
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+
+
+.back {
+    transform: rotateY(180deg);
+    background-color: #fff;
+}
+
+#fareRideCover {
+  height: 100%!important;
+  background-image: url('../assets/FareRideShow.jpg')!important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+
+}
+
+
+#amazonDRSCover {
+  height: 100%!important;
+  background-image: url('../assets/amazonDRSShow.jpg')!important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+
+#openSpotCover {
+  height: 100%!important;
+  background-image: url('../assets/openSpotShow.jpg')!important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+
+
+.front:hover{
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+    transition: .5s;
+      box-shadow: 0 15px 30px 0 rgba(0,0,0,1);
+}
+
+
+
+
+.front:hover ~ .fakefront{
+  font-size: 1.5em;
+  transition: 1s;
+}
+
+.fakefront:hover{
+  transition: 1s;
+    font-size: 1.5em;
+
+}
+
+
+
+.realCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.fare{
+  padding-right:3px!important;
+  padding-left:3px!important;
+  padding-bottom: 13px!important;
+}
+
 
 
 .page-footer{
