@@ -168,10 +168,6 @@ body, html {
 .fakefront:hover {
   cursor: pointer; }
 
-nav {
-  position: relative;
-  z-index: 1000; }
-
 .realCentered {
   position: absolute;
   top: 50%;
