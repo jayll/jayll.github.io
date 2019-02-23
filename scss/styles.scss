@@ -64,6 +64,8 @@ body,html {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+    padding-left: 0!important;
+    padding-right: 0!important;
 }
 
 .nav-link{
@@ -281,7 +283,11 @@ body,html {
 
 }
 
-
+nav{
+  z-index: 99 !important;
+  // padding-left: 0!important;
+  // padding-right: 0!important;
+}
 
 
 .fare{

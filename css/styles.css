@@ -40,7 +40,9 @@ body, html {
   height: 100% !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
-  background-size: cover !important; }
+  background-size: cover !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
 
 .nav-link {
   font-family: "Work Sans", sans-serif !important;
@@ -173,6 +175,9 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
+
+nav {
+  z-index: 99 !important; }
 
 .fare {
   padding-right: 3px !important;
