@@ -239,8 +239,8 @@ body,html {
 
 
 .front:hover{
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
     transition: .5s;
       -webkit-transition: .5s;
       box-shadow: 0 15px 30px 0 rgba(0,0,0,1);
@@ -250,18 +250,18 @@ body,html {
 
 
 
-.front:hover ~ .fakefront{
-  font-size: 1.2em;
-  transition: 1s;
-    -webkit-transition: 1s;
-}
+// .front:hover ~ .fakefront{
+//   font-size: 1.2em;
+//   transition: 1s;
+//     -webkit-transition: 1s;
+// }
 
-.fakefront:hover{
-  transition: 1s;
-  -webkit-transition: 1s;
-    font-size: 1.2em;
-
-}
+// .fakefront:hover{
+//   transition: 1s;
+//   -webkit-transition: 1s;
+//     font-size: 1.2em;
+//
+// }
 
 
 
