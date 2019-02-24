@@ -46,15 +46,16 @@
     }
 
 
-    setTimeout(function() { typeWriter() },500)
-    setTimeout(function() { typeWriter2() },2800)
-    setTimeout(function() { typeWriter3() },3800)
 
 
   $(document).ready(function(){
   /*! Fades in page on load */
   $('body').css('display', 'none');
   $('body').fadeIn(1000);
+  setTimeout(function() { typeWriter() },500)
+  setTimeout(function() { typeWriter2() },2800)
+  setTimeout(function() { typeWriter3() },3800)
+
 
   });
 
