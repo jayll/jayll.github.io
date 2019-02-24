@@ -44,11 +44,6 @@ body,html {
 
 }
 
-.iconInitials{
-  height:5px!important;
-  width:10px!important;
-}
-
 .card{
         box-shadow: 0 4px 4px 0 rgba(0,0,0,.4);
 }
@@ -82,12 +77,11 @@ body,html {
 
 .navbar-toggler {
   border: 0px !important;
-
 }
 
 #initials{
   height: auto;
-  width:35%;
+  width:40%;
   // size:100% auto;
     // background-attachment: fixed;
         // width:40%;
@@ -105,6 +99,7 @@ body,html {
   font-size:1.7em;
 }
 
+
 ///////////////////
 
 
@@ -118,7 +113,7 @@ body,html {
 
 #mePicture{
   height: auto;
-  width: 85%;
+  width: 90%;
   // padding-bottom: 10px!important;
 }
 
@@ -131,7 +126,10 @@ body,html {
   font-size: $descriptionFontSize;
   font-family: $secondaryFont;
   text-align: justify;
+  color:white;
 }
+
+
 
 //////////////
 

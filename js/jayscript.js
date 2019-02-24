@@ -2,14 +2,53 @@
   "use strict"; // Start of use strict
 
 
+
+
+
   function blink_text() {
+      // $('.blink').css('display', 'none');
       $('#blink').fadeOut(250);
       $('#blink').fadeIn(250);
   }
+  setInterval(blink_text, 800);
 
-    setInterval(blink_text, 800);
+
+    var i = 0;
+    var i2 = 0;
+    var i3 = 0;
+    var txt = 'A Jay Lliguichushca';
+    var txt2 = 'Creation';
+    var txt3 = '▉'
+    var speed = 120;
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("txt1").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+
+    function typeWriter2() {
+      if (i2 < txt2.length) {
+        document.getElementById("txt2").innerHTML += txt2.charAt(i2);
+        i2++;
+        setTimeout(typeWriter2, speed);
+      }
+    }
+
+    function typeWriter3() {
+      if (i3 < txt3.length) {
+        document.getElementById("blink").innerHTML += txt3.charAt(i3);
+        i3++;
+        setTimeout(typeWriter3, speed);
+      }
+    }
 
 
+    setTimeout(function() { typeWriter() },500)
+    setTimeout(function() { typeWriter2() },2800)
+    setTimeout(function() { typeWriter3() },3800)
 
 
   $(document).ready(function(){
