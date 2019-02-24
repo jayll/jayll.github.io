@@ -3,6 +3,7 @@ $secondaryFont:'Ubuntu', sans-serif!important;
 $descriptionFontSize:1.15em!important;
 $titleFontSize:3.25em!important;
 $primaryDark:#2D3B46!important;
+$whiteC:#ffffff!important;
 
 //main things & personal//
 
@@ -22,7 +23,7 @@ $primaryDark:#2D3B46!important;
 .titleWhite{
   font-family: $primaryFont;
   font-size: $titleFontSize;
-  color:white!important;
+  color:$whiteC;
   font-weight: bold;
 }
 
@@ -128,16 +129,12 @@ body,html {
   font-size: $descriptionFontSize;
   font-family: $secondaryFont;
   text-align: justify;
-  color:white!important;
+  color:$whiteC;
 }
 
 
 
 //////////////
-
-#Projects{
-
-}
 
 #subProjects{
   // background-color: $primaryDark;
@@ -145,7 +142,7 @@ body,html {
 
 .projectsTitleCard{
   font-family: $primaryFont;
-  color: white!important;
+  color: $whiteC;
   font-size: 2.5em;
 }
 
@@ -186,7 +183,7 @@ body,html {
 
 .flipper {
     transition: 2s;
-      -webkit-transition: 2s;
+    -webkit-transition: 2s;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     position: relative;
@@ -197,8 +194,7 @@ body,html {
 
 
 
-.front,
-.back {
+.front, .back {
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     position: absolute;
@@ -280,8 +276,6 @@ body,html {
 .front:hover{
   filter: blur(4px);
   -webkit-filter: blur(4px);
-
-
     transition: .5s;
       -webkit-transition: .5s;
       box-shadow: 0 15px 30px 0 rgba(0,0,0,1);
@@ -350,7 +344,9 @@ nav{
 .video-container {
 position: relative;
 padding-bottom: 56.25%;
-padding-top: 30px; height: 0; overflow: hidden;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
 }
 
 .video-container iframe,.video-container object,.video-container embed {
@@ -364,8 +360,8 @@ height: 100%;
 
 .aboutInfo{
   font-family: $secondaryFont;
-  color: white!important;
-  font-size: 1.5em;
+  color: $whiteC;
+  font-size: 1.5em!important;
 }
 
 .page-footer{
