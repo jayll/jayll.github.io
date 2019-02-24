@@ -15,20 +15,22 @@ $primaryDark:#2D3B46!important;
 }
 
 .hPadding{
-  padding-top: 25px!important;
-  padding-bottom: 25px!important;
+  padding-top: 45px!important;
+  padding-bottom: 45px!important;
 }
 
 .titleWhite{
   font-family: $primaryFont;
   font-size: $titleFontSize;
   color:white!important;
+  font-weight: bold;
 }
 
 .titleDark{
   font-family: $primaryFont;
   font-size: $titleFontSize;
   color: $primaryDark;
+  font-weight: bold;
 }
 
 .borderThick{
@@ -113,11 +115,11 @@ body,html {
 
 #mePicture{
   height: auto;
-  width: 90%;
+  width: 85%;
   // padding-bottom: 10px!important;
 }
 
-#mePicturePadding{
+.belowPadding{
   padding-top: 15px!important;
   padding-bottom: 15px!important;
 }
@@ -263,13 +265,13 @@ body,html {
 //   transition: 1s;
 //     -webkit-transition: 1s;
 // }
-
-// .fakefront:hover{
-//   transition: 1s;
-//   -webkit-transition: 1s;
-//     font-size: 1.2em;
 //
-// }
+.fakefront:hover{
+  transition: 1s;
+  -webkit-transition: 1s;
+    font-size: 1.1em;
+
+}
 
 
 
@@ -283,8 +285,6 @@ body,html {
 
 nav{
   z-index: 99 !important;
-  // padding-left: 0!important;
-  // padding-right: 0!important;
 }
 
 #navContainer{

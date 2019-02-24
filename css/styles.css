@@ -6,18 +6,20 @@
   margin: 0 !important; }
 
 .hPadding {
-  padding-top: 25px !important;
-  padding-bottom: 25px !important; }
+  padding-top: 45px !important;
+  padding-bottom: 45px !important; }
 
 .titleWhite {
   font-family: "Work Sans", sans-serif !important;
   font-size: 3.25em !important;
-  color: white !important; }
+  color: white !important;
+  font-weight: bold; }
 
 .titleDark {
   font-family: "Work Sans", sans-serif !important;
   font-size: 3.25em !important;
-  color: #2D3B46 !important; }
+  color: #2D3B46 !important;
+  font-weight: bold; }
 
 .borderThick {
   border-style: solid;
@@ -72,9 +74,9 @@ body, html {
 
 #mePicture {
   height: auto;
-  width: 90%; }
+  width: 85%; }
 
-#mePicturePadding {
+.belowPadding {
   padding-top: 15px !important;
   padding-bottom: 15px !important; }
 
@@ -166,6 +168,11 @@ body, html {
 
 .fakefront:hover {
   cursor: pointer; }
+
+.fakefront:hover {
+  transition: 1s;
+  -webkit-transition: 1s;
+  font-size: 1.1em; }
 
 .realCentered {
   position: absolute;
