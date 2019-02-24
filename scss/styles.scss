@@ -1,5 +1,5 @@
 $primaryFont: 'Work Sans', sans-serif!important;
-$secondaryFont:'Roboto', sans-serif!important;
+$secondaryFont:'Ubuntu', sans-serif!important;
 $descriptionFontSize:1.15em!important;
 $titleFontSize:3.25em!important;
 $primaryDark:#2D3B46!important;
@@ -67,11 +67,11 @@ body,html {
 
 .nav-link{
   font-family: $primaryFont;
-  font-size: 1.1em!important;
+  font-size: 1.2em!important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: black;
+  color: $primaryDark;
 }
 .navbar-nav li a.active {
   color: $primaryDark;
@@ -97,7 +97,7 @@ body,html {
 }
 
 .code{
-  color:rgb(0,255,0) !important;
+  color:#00FF00!important;
   font-size:1.7em;
 }
 
@@ -155,13 +155,33 @@ body,html {
     -webkit-transform: rotateY(180deg);
 }
 
-.flip-container,
-.front,
-.back {
+.flip-containerSize1{
+  width: 100%;
+  height: 560px;
+  .front{
     width: 100%;
-    height: 635px;
+    height: 560px;
+  }
+  .back{
+      width: 100%;
+      height: 560px;
+    }
+
 }
 
+.flip-containerSize2{
+  width: 100%;
+  height: 680px;
+  .front{
+    width: 100%;
+    height: 680px;
+  }
+  .back{
+      width: 100%;
+      height: 680px;
+    }
+
+}
 
 
 .flipper {
@@ -238,6 +258,23 @@ body,html {
   background-size: cover !important;
 }
 
+#kingsCover {
+  height: 100%!important;
+  background-image: url('../assets/kingsShow.jpg')!important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+#focusUpCover {
+  height: 100%!important;
+  background-image: url('../assets/focusUpShow.jpg')!important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+
 
 
 .front:hover{
@@ -269,10 +306,20 @@ body,html {
 .fakefront:hover{
   transition: 1s;
   -webkit-transition: 1s;
-    font-size: 1.1em;
+    font-size: 1.3em;
 
 }
 
+.fab:hover {
+    color: #00FF00!important;
+}
+.fa-envelope:hover{
+    color: #00FF00!important;
+}
+
+a{
+  text-decoration: none!important;
+}
 
 
 .realCentered {
@@ -293,13 +340,33 @@ nav{
   padding-right: 10px!important;
 }
 
-.fare{
+.cardPadding{
   padding-right:3px!important;
   padding-left:3px!important;
   padding-bottom: 13px!important;
 }
 
 
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,.video-container object,.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+.aboutInfo{
+  font-family: $secondaryFont;
+  color: white!important;
+  font-size: 1.5em;
+}
 
 .page-footer{
   padding-bottom: 0px!important;
