@@ -82,7 +82,7 @@ body, html {
   font-size: 1.15em !important;
   font-family: "Roboto", sans-serif !important;
   text-align: justify;
-  color: white; }
+  color: white !important; }
 
 .projectsTitleCard {
   font-family: "Work Sans", sans-serif !important;
