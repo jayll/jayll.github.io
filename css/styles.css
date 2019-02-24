@@ -28,10 +28,6 @@ body, html {
   height: 100% !important;
   margin: 0 !important; }
 
-.iconInitials {
-  height: 5px !important;
-  width: 10px !important; }
-
 .card {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4); }
 
@@ -59,7 +55,7 @@ body, html {
 
 #initials {
   height: auto;
-  width: 35%; }
+  width: 40%; }
 
 .centered {
   position: absolute;
@@ -76,7 +72,7 @@ body, html {
 
 #mePicture {
   height: auto;
-  width: 85%; }
+  width: 90%; }
 
 #mePicturePadding {
   padding-top: 15px !important;
@@ -85,7 +81,8 @@ body, html {
 .description {
   font-size: 1.15em !important;
   font-family: "Roboto", sans-serif !important;
-  text-align: justify; }
+  text-align: justify;
+  color: white; }
 
 .projectsTitleCard {
   font-family: "Work Sans", sans-serif !important;
