@@ -243,7 +243,10 @@ nav {
   width: 100%;
   height: 100%; }
 
-.aboutInfo {
+#Contact {
+  background-color: #2D3B46 !important; }
+
+.contactInfo {
   font-family: "Ubuntu", sans-serif !important;
   color: #ffffff !important;
   font-size: 1.5em !important; }
