@@ -25,7 +25,8 @@ gulp.task('serve', ['sass'], function() {
     });
 
     gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], ['sass']);
-    gulp.watch("src/*.html").on('change', browserSync.reload);
+    // gulp.watch("src/*.html").on('change', browserSync.reload);
+    gulp.watch("./src/*.html").on('change', browserSync.reload);﻿
 });
 
 gulp.task('default', ['js','serve']);
